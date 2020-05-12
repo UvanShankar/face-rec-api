@@ -1,5 +1,4 @@
-import os
-from zipfile import ZipFile 
+import os 
 from os import listdir
 from os.path import isdir
 from PIL import Image
@@ -95,13 +94,6 @@ def trainthedata(filename,modelname):
     print ("train the data is being executed")
     app_root = os.path.dirname(os.path.abspath(__file__))
     app_root=os.path.join(app_root,'images')
-    # opening the zip file in READ mode 
-    #with ZipFile(os.path.join(app_root, filename), 'r') as zip: 
-        # printing all the contents of the zip file 
-        #extracting all the files 
-        #3print('Extracting all the files now...') 
-        #zip.extracptall() 
-        #print('Done!') 
     print(os.path.join(app_root,'tour.rar'))
     from pyunpack import Archive
     Archive(os.path.join(app_root,filename)).extractall(app_root)

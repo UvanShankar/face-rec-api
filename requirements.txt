@@ -1,0 +1,13 @@
+Flask
+Flask-Cors
+Flask-JWT
+Flask-RESTful
+Flask-SQLAlchemy
+uwsgi
+Keras
+mtcnn
+numpy
+Pillow
+scikit-learn
+tensorflow
+uuid
