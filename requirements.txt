@@ -9,5 +9,5 @@ mtcnn
 numpy
 Pillow
 scikit-learn
-tensorflow-1.13.0
+tensorflow==1.0.0
 uuid
