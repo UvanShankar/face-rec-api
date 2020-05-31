@@ -9,5 +9,5 @@ mtcnn
 numpy
 Pillow
 scikit-learn
-https://files.pythonhosted.org/packages/48/58/b71480f9ec9d08d581d672a81b15ab5fec36a5fcda2093558a23614d8468/tensorflow-1.0.0-cp36-cp36m-manylinux1_x86_64.whl
+tensorflow
 uuid
