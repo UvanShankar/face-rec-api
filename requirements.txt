@@ -9,5 +9,5 @@ mtcnn
 numpy
 Pillow
 scikit-learn
-tensorflow
+tensorflow-gpu=1.15
 uuid
