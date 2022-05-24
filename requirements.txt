@@ -9,5 +9,5 @@ mtcnn
 numpy
 Pillow
 scikit-learn
-tensorflow-cpu==1.15
+tensorflow-cpu==2.6.4
 uuid
